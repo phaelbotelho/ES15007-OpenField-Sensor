@@ -1,0 +1,692 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC IEEE_DBL LFSROK SPACEOPT EMI_WORD IEEE_FLT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2520 ]
+[d frameptr 4065 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"409 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+"425
+[v _scale scale `(d  1 s 4 scale ]
+"492
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 4 0 ]
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"18 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\ES15007.c
+[v _ES15007_Get_Serial ES15007_Get_Serial `(ui  1 e 2 0 ]
+"38
+[v _ES15007_Get_Status ES15007_Get_Status `(uc  1 e 1 0 ]
+"53
+[v _ES15007_ReadPress ES15007_ReadPress `(f  1 e 4 0 ]
+"92
+[v _ES15007_ReadTemp ES15007_ReadTemp `(f  1 e 4 0 ]
+"15 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\main.c
+[v _main main `(v  1 e 0 0 ]
+"11 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\my_delays.c
+[v _Delay_ms Delay_ms `(v  1 e 0 0 ]
+"11 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\my_i2c.c
+[v _I2C_Init I2C_Init `(v  1 e 0 0 ]
+"27
+[v _I2C_Start I2C_Start `(v  1 e 0 0 ]
+"36
+[v _I2C_RepeatedStart I2C_RepeatedStart `(v  1 e 0 0 ]
+"45
+[v _I2C_Stop I2C_Stop `(v  1 e 0 0 ]
+"52
+[v _I2C_Idle I2C_Idle `(v  1 e 0 0 ]
+"58
+[v _I2C_Close I2C_Close `(v  1 e 0 0 ]
+"63
+[v _I2C_ReadByte I2C_ReadByte `(uc  1 e 1 0 ]
+"98
+[v _I2C_WriteByte I2C_WriteByte `(uc  1 e 1 0 ]
+"11 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\serial.c
+[v _putrsserial putrsserial `(v  1 e 0 0 ]
+"29
+[v _writeserial writeserial `(v  1 e 0 0 ]
+"34
+[v _readserial readserial `(uc  1 e 1 0 ]
+"65
+[v _DataRdyUSART DataRdyUSART `(uc  1 e 1 0 ]
+"1289 C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic18f2520.h
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1510
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1731
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S134 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1763
+[s S143 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S152 . 1 `S134 1 . 1 0 `S143 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES152  1 e 1 @3988 ]
+"2513
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"2722
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+[s S452 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2782
+[s S461 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S464 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S467 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SENDB1 1 0 :1:3 
+]
+[s S470 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S473 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S476 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S479 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S481 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[s S484 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S487 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S489 . 1 `S452 1 . 1 0 `S461 1 . 1 0 `S464 1 . 1 0 `S467 1 . 1 0 `S470 1 . 1 0 `S473 1 . 1 0 `S476 1 . 1 0 `S479 1 . 1 0 `S481 1 . 1 0 `S484 1 . 1 0 `S487 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES489  1 e 1 @4012 ]
+"3019
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3041
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3189
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"3530
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"3971
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4201
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S179 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"4226
+[s S188 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[u S195 . 1 `S179 1 . 1 0 `S188 1 . 1 0 ]
+[v _SSPCON2bits SSPCON2bits `VES195  1 e 1 @4037 ]
+"4295
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+[s S376 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"4315
+[s S382 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[u S387 . 1 `S376 1 . 1 0 `S382 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES387  1 e 1 @4038 ]
+"4364
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+[s S215 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"4459
+[s S218 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S221 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S236 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S241 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 A 1 0 :1:5 
+]
+[s S246 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S251 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S256 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S259 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S262 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S267 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 DA 1 0 :1:5 
+]
+[s S270 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW 1 0 :1:2 
+]
+[s S273 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 START 1 0 :1:3 
+]
+[s S276 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 STOP 1 0 :1:4 
+]
+[s S279 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S282 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S285 . 1 `S215 1 . 1 0 `S218 1 . 1 0 `S221 1 . 1 0 `S215 1 . 1 0 `S218 1 . 1 0 `S236 1 . 1 0 `S241 1 . 1 0 `S246 1 . 1 0 `S251 1 . 1 0 `S256 1 . 1 0 `S259 1 . 1 0 `S262 1 . 1 0 `S267 1 . 1 0 `S270 1 . 1 0 `S273 1 . 1 0 `S276 1 . 1 0 `S279 1 . 1 0 `S282 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES285  1 e 1 @4039 ]
+"4603
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"4609
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5377
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\powers.c
+[v __powers_ _powers_ `C[13]d  1 e 52 0 ]
+"39
+[v __npowers_ _npowers_ `C[13]d  1 e 52 0 ]
+"15 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"17
+[v main@aux aux `[20]uc  1 a 20 0 ]
+"72
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.30uc  1 a 1 wreg ]
+"516
+[v sprintf@fval fval `d  1 a 4 118 ]
+"528
+[v sprintf@val val `ul  1 a 4 108 ]
+[u S891 . 4 `ul 1 vd 4 0 `d 1 integ 4 0 ]
+"526
+[v sprintf@tmpval tmpval `S891  1 a 4 104 ]
+"504
+[v sprintf@prec prec `i  1 a 2 122 ]
+"501
+[v sprintf@width width `i  1 a 2 116 ]
+"508
+[v sprintf@flag flag `us  1 a 2 114 ]
+"516
+[v sprintf@exp exp `i  1 a 2 112 ]
+"499
+[v sprintf@c c `c  1 a 1 125 ]
+"494
+[v sprintf@ap ap `[1]*.30v  1 a 1 103 ]
+"492
+[v sprintf@sp sp `*.30uc  1 a 1 wreg ]
+[v sprintf@f f `*.25Cuc  1 p 2 89 ]
+"533
+[v sprintf@sp sp `*.30uc  1 a 1 124 ]
+"1541
+} 0
+"425
+[v _scale scale `(d  1 s 4 scale ]
+{
+[v scale@scl scl `c  1 a 1 wreg ]
+[v scale@scl scl `c  1 a 1 wreg ]
+"428
+[v scale@scl scl `c  1 a 1 37 ]
+"441
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"11
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"8
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"35
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 12 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 11 ]
+[v ___awdiv@counter counter `uc  1 a 1 10 ]
+"8
+[v ___awdiv@dividend dividend `i  1 p 2 6 ]
+[v ___awdiv@divisor divisor `i  1 p 2 8 ]
+"42
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"409 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+{
+[v fround@prec prec `uc  1 a 1 wreg ]
+[v fround@prec prec `uc  1 a 1 wreg ]
+"413
+[v fround@prec prec `uc  1 a 1 45 ]
+"418
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 3 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 1 ]
+"18
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 7 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 6 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 4 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 5 ]
+"26
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __tdiv_to_l_@quot quot `ul  1 a 4 11 ]
+"62
+[v __tdiv_to_l_@exp1 exp1 `uc  1 a 1 16 ]
+[v __tdiv_to_l_@cntr cntr `uc  1 a 1 15 ]
+"60
+[v __tdiv_to_l_@f1 f1 `f  1 p 4 0 ]
+[v __tdiv_to_l_@f2 f2 `f  1 p 4 4 ]
+"101
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __div_to_l_@quot quot `ul  1 a 4 8 ]
+"62
+[v __div_to_l_@exp1 exp1 `uc  1 a 1 13 ]
+[v __div_to_l_@cntr cntr `uc  1 a 1 12 ]
+"60
+[v __div_to_l_@f1 f1 `d  1 p 4 0 ]
+[v __div_to_l_@f2 f2 `d  1 p 4 4 ]
+"101
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"30 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lltofl.c
+[v ___lltofl __lltofl `(d  1 e 4 0 ]
+{
+[v ___lltofl@c c `ul  1 p 4 10 ]
+"33
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"8
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 47 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 46 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 38 ]
+"70
+} 0
+"20 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flsub.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@f1 f1 `d  1 p 4 58 ]
+[v ___flsub@f2 f2 `d  1 p 4 62 ]
+"32
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"13
+} 0
+"11 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\serial.c
+[v _putrsserial putrsserial `(v  1 e 0 0 ]
+{
+[v putrsserial@data data `*.35Cuc  1 p 2 1 ]
+"18
+} 0
+"29
+[v _writeserial writeserial `(v  1 e 0 0 ]
+{
+[v writeserial@data data `uc  1 a 1 wreg ]
+[v writeserial@data data `uc  1 a 1 wreg ]
+"31
+[v writeserial@data data `uc  1 a 1 0 ]
+"32
+} 0
+"11 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\my_i2c.c
+[v _I2C_Init I2C_Init `(v  1 e 0 0 ]
+{
+[v I2C_Init@clock_output clock_output `uc  1 a 1 wreg ]
+[v I2C_Init@clock_output clock_output `uc  1 a 1 wreg ]
+"13
+[v I2C_Init@clock_output clock_output `uc  1 a 1 0 ]
+"25
+} 0
+"58
+[v _I2C_Close I2C_Close `(v  1 e 0 0 ]
+{
+"61
+} 0
+"92 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\ES15007.c
+[v _ES15007_ReadTemp ES15007_ReadTemp `(f  1 e 4 0 ]
+{
+"94
+[v ES15007_ReadTemp@temp temp `f  1 a 4 77 ]
+[u S818 . 2 `ui 1 temperature_16 2 0 `[1]uc 1 temperature_databyte 1 0 ]
+"105
+[v ES15007_ReadTemp@qzd_temp_hi qzd_temp_hi `S818  1 a 2 83 ]
+"100
+[v ES15007_ReadTemp@qzd_temp_lo qzd_temp_lo `S818  1 a 2 81 ]
+"129
+} 0
+"28 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtofl.c
+[v ___lwtofl __lwtofl `(d  1 e 4 0 ]
+{
+[v ___lwtofl@c c `ui  1 p 2 10 ]
+"31
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\flmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+"65
+[v ___flmul@f3_as_product f3_as_product `ul  1 a 4 23 ]
+"64
+[v ___flmul@sign sign `uc  1 a 1 28 ]
+[v ___flmul@cntr cntr `uc  1 a 1 27 ]
+[v ___flmul@exp exp `uc  1 a 1 22 ]
+"62
+[v ___flmul@f1 f1 `d  1 p 4 14 ]
+[v ___flmul@f2 f2 `d  1 p 4 18 ]
+"220
+} 0
+"88 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fladd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"90
+[v ___fladd@exp1 exp1 `uc  1 a 1 57 ]
+[v ___fladd@exp2 exp2 `uc  1 a 1 56 ]
+[v ___fladd@sign sign `uc  1 a 1 55 ]
+"88
+[v ___fladd@f1 f1 `d  1 p 4 46 ]
+[v ___fladd@f2 f2 `d  1 p 4 50 ]
+"149
+} 0
+"53 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\ES15007.c
+[v _ES15007_ReadPress ES15007_ReadPress `(f  1 e 4 0 ]
+{
+"55
+[v ES15007_ReadPress@press press `f  1 a 4 81 ]
+[u S804 . 2 `ui 1 pressure_16 2 0 `[2]uc 1 pressure_databyte 2 0 ]
+"65
+[v ES15007_ReadPress@qzd_press_hi qzd_press_hi `S804  1 a 2 87 ]
+"60
+[v ES15007_ReadPress@qzd_press_lo qzd_press_lo `S804  1 a 2 85 ]
+"90
+} 0
+"54 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\fldiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"60
+[v ___fldiv@f3 f3 `d  1 a 4 66 ]
+"59
+[v ___fldiv@sign sign `uc  1 a 1 72 ]
+[v ___fldiv@exp exp `uc  1 a 1 71 ]
+[v ___fldiv@cntr cntr `uc  1 a 1 70 ]
+"54
+[v ___fldiv@f1 f1 `d  1 p 4 58 ]
+[v ___fldiv@f2 f2 `d  1 p 4 62 ]
+"85
+} 0
+"36 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\altofl.c
+[v ___altofl __altofl `(d  1 e 4 0 ]
+{
+"38
+[v ___altofl@sign sign `uc  1 a 1 14 ]
+"36
+[v ___altofl@c c `l  1 p 4 10 ]
+"46
+} 0
+"63 C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\double.c
+[v ___flpack __flpack `(d  1 e 4 0 ]
+{
+[v ___flpack@arg arg `ul  1 p 4 0 ]
+[v ___flpack@exp exp `uc  1 p 1 4 ]
+[v ___flpack@sign sign `uc  1 p 1 5 ]
+"87
+} 0
+"38 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\ES15007.c
+[v _ES15007_Get_Status ES15007_Get_Status `(uc  1 e 1 0 ]
+{
+"40
+[v ES15007_Get_Status@status status `uc  1 a 1 3 ]
+"51
+} 0
+"18
+[v _ES15007_Get_Serial ES15007_Get_Serial `(ui  1 e 2 0 ]
+{
+[u S789 . 2 `ui 1 serial_16 2 0 `[2]uc 1 serial_databyte 2 0 ]
+"24
+[v ES15007_Get_Serial@serial serial `S789  1 a 2 5 ]
+"36
+} 0
+"98 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\my_i2c.c
+[v _I2C_WriteByte I2C_WriteByte `(uc  1 e 1 0 ]
+{
+[v I2C_WriteByte@data_out data_out `uc  1 a 1 wreg ]
+[v I2C_WriteByte@data_out data_out `uc  1 a 1 wreg ]
+"100
+[v I2C_WriteByte@data_out data_out `uc  1 a 1 1 ]
+"128
+} 0
+"45
+[v _I2C_Stop I2C_Stop `(v  1 e 0 0 ]
+{
+"50
+} 0
+"27
+[v _I2C_Start I2C_Start `(v  1 e 0 0 ]
+{
+"34
+} 0
+"36
+[v _I2C_RepeatedStart I2C_RepeatedStart `(v  1 e 0 0 ]
+{
+"43
+} 0
+"63
+[v _I2C_ReadByte I2C_ReadByte `(uc  1 e 1 0 ]
+{
+[v I2C_ReadByte@acknowledge acknowledge `uc  1 a 1 wreg ]
+"65
+[v I2C_ReadByte@buffer_I2C buffer_I2C `uc  1 a 1 2 ]
+"63
+[v I2C_ReadByte@acknowledge acknowledge `uc  1 a 1 wreg ]
+[v I2C_ReadByte@acknowledge acknowledge `uc  1 a 1 1 ]
+"96
+} 0
+"52
+[v _I2C_Idle I2C_Idle `(v  1 e 0 0 ]
+{
+"56
+} 0
+"11 C:\Users\raphael.pereira\Google Drive\LSFO\projetos\node_485\openfield_lib.X\my_delays.c
+[v _Delay_ms Delay_ms `(v  1 e 0 0 ]
+{
+"13
+[v Delay_ms@i i `ui  1 a 2 3 ]
+"11
+[v Delay_ms@count count `ui  1 p 2 0 ]
+"19
+} 0
